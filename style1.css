@@ -1,0 +1,98 @@
+*{
+    margin:0px;
+    padding:0px;
+
+
+}
+body{
+    text-indent: 0.3in;
+    font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    line-height: 1.42857143;
+    color:#333;
+    background-image:url(backg.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+}
+#karnataka{
+    margin-top:5%;
+
+}
+.header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    padding:10px 50px;
+    background:seagreen;
+    display:flex;
+    align-items:center;
+    z-index:100;
+
+}
+.navbar a{
+    color:#c2f2f5;
+    text-decoration: none;
+    margin-left:80px;
+}
+.quickHead{
+    text-align:center;							/*text-alignment*/
+    margin-top:5%;
+    font-size: 50px;
+    color:#333;							/*color-group*/
+}
+.quickHead:hover							 /* pseudo selector i.e., hover*/
+{
+    font-size: 80px;
+    text-align: center;
+
+}
+.card {
+    width: 20%;
+    height: 350px;
+    margin: 2%;
+    float: left;							/* float property */   
+    background-color:#ffe6e8;
+    overflow: scroll; 	/* If text is overflow, then the contents/text are hidden/gone */ 
+    border: 2px groove rgb(245, 245, 97);     
+    }
+    .card:hover {
+       transform:scale(1.1);
+      font-size: 10px;
+
+    }
+    .card h2 {
+        font-size: 10px;
+            text-align: justify; 						/* text-align property*/    
+        	background-color: #c2f2f5; 					 /*background-color property*/         
+        }
+    
+    .cardImg {
+        margin-left:25px;
+        height: 250px;
+        width: 100%;
+    }
+    .para{
+        font-size:10px;
+    }
+    .footer{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 20px;
+        margin:0 15px;
+        cursor:pointer;
+        
+       
+    }
+    .f{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        font-size: 50px;
+        margin:0 1px;
+        cursor:pointer;
+    }
+    
+    
